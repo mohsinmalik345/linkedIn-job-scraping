@@ -47,37 +47,37 @@
    > The ADF pipeline can be scheduled to run periodically (e.g., every 6 hours) to automate the job search.
 
 ✨ Features
-✅ Custom job search with filters (role, type, location, experience, etc.)
+>✅ Custom job search with filters (role, type, location, experience, etc.)
 
-📩 Beautifully formatted emails with matching job listings
+>📩 Beautifully formatted emails with matching job listings
 
-🔁 Schedule to run automatically at custom intervals
+>🔁 Schedule to run automatically at custom intervals
 
-👥 Email alerts can be sent to multiple recipients
+>👥 Email alerts can be sent to multiple recipients
 
 🛠️ Tech Stack
-Azure Data Factory – Pipeline orchestration
+>Azure Data Factory – Pipeline orchestration
 
-Azure Databricks – Job scraper logic (Python)
+>Azure Databricks – Job scraper logic (Python)
 
-Azure Webhook – Triggers the email service
+>Azure Webhook – Triggers the email service
 
-Azure Logic Apps – Email formatting & delivery
+>Azure Logic Apps – Email formatting & delivery
 
-Python Libraries – BeautifulSoup, requests, json, time
+>Python Libraries – BeautifulSoup, requests, json, time
 
 ▶️ How to Use
-Go to ADF Pipeline and enter:
+>Go to ADF Pipeline and enter:
 
-Job Role, Location, Experience, Work Type, Keywords, Posted Hours Ago
+>Job Role, Location, Experience, Work Type, Keywords, Posted Hours Ago
 
-Set the recipient email(s) in the Logic App
+>Set the recipient email(s) in the Logic App
 
-Trigger the pipeline manually or on a schedule
+>Trigger the pipeline manually or on a schedule
 
-Check your inbox for the job listing results
+>Check your inbox for the job listing results
 
 👤 Intended Audience
-Data Engineers interested in pipeline automation
+>Data Engineers interested in pipeline automation
 
-Recruiters/Job Seekers wanting regular, filtered job alerts
+>Recruiters/Job Seekers wanting regular, filtered job alerts
