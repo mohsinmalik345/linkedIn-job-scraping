@@ -1,8 +1,8 @@
 🔎 LinkedIn Job Scraper with Automated Email Alerts
-This project automates the job-hunting process using a data engineering pipeline built on Azure. It scrapes job listings from LinkedIn based on user-defined parameters, then sends the results via email using Logic Apps.
+>This project automates the job-hunting process using a data engineering pipeline built on Azure. It scrapes job listings from LinkedIn based on user-defined parameters, then sends the results via email using Logic Apps.
 
 🚀 Overview
-An end-to-end pipeline built with Azure Data Factory and Azure Databricks, integrated with Webhook and Logic Apps, to extract job listings and notify users via customized email alerts. It's fully parameterized and can be scheduled to run at specific intervals.
+>An end-to-end pipeline built with Azure Data Factory and Azure Databricks, integrated with Webhook and Logic Apps, to extract job listings and notify users via customized email alerts. It's fully parameterized and can be scheduled to run at specific intervals.
 
 🧩 How It Works
 1. User Inputs via ADF Pipeline
