@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "runPageUrl": {
+      "type": "string"
+    },
+    "runOutput": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Job Role": {
+            "type": "string"
+          },
+          "Job link": {
+            "type": "string"
+          },
+          "Keywords Matched": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "Job Role",
+          "Job link",
+          "Keywords Matched"
+        ]
+      }
+    },
+    "role": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "worktype": {
+      "type": "string"
+    },
+    "posted": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "runOutput",
+    "role",
+    "experience",
+    "location",
+    "worktype",
+    "posted",
+    "keywords"
+  ]
+}

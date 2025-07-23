@@ -1,0 +1,25 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Job Role": {
+        "type": "string"
+      },
+      "Job link": {
+        "type": "string"
+      },
+      "Keywords Matched": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "Job Role",
+      "Job link",
+      "Keywords Matched"
+    ]
+  }
+}
