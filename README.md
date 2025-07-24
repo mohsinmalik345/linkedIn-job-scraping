@@ -44,7 +44,7 @@
     >> Sends an email to the user (or multiple recipients) with the results
 
 5. Scheduled Execution
-   > The ADF pipeline can be scheduled to run periodically (e.g., every 6 hours) to automate the job search.
+   > The ADF pipeline can be scheduled to run periodically (e.g., every 48 hours) to automate the job search.
 
 ✨ Features
 >✅ Custom job search with filters (role, type, location, experience, etc.)
